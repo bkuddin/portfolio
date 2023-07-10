@@ -4,7 +4,7 @@
 }
 
 body{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .banner{
@@ -12,7 +12,7 @@ body{
     background-image: url(/images/banner/banner1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 808px;
 }
 
 .banner-info{
@@ -48,4 +48,10 @@ border-radius: 5px;
 border: 0;
 background: #F15B22;
 margin-top: 30px;
+}
+
+/* Failure Section Styels */
+
+.failure-section{
+    display: flex;
 }
