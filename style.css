@@ -15,6 +15,10 @@ body{
     height: 808px;
 }
 
+.banner, .failure-section{
+    margin-bottom: 140px;
+}
+
 .banner-info{
     margin-top: 15%;
     text-align: right;
@@ -54,4 +58,39 @@ margin-top: 30px;
 
 .failure-section{
     display: flex;
+    justify-content: space-evenly;
+    margin: 0px 100px 0px 100px;
+    
+    
 }
+
+.failure-section-image{
+    height: 898px;
+}
+.failure-section-text{
+    width: 350px;
+    margin-top: 230px;
+}
+.failure-section-title{
+color: #151414;
+font-size: 40px;
+font-weight: 700;
+
+}
+.failure-section-description{
+color: #444343;
+font-size: 16px;
+font-weight: 400;
+margin: 20px 0px 20px 0px;
+}
+
+ul li{
+    list-style: none;
+}
+
+i{
+    color: #16D887;
+    margin-right: 10px;
+}
+
+
