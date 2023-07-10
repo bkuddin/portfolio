@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    overflow: hidden;
+}
+
 .banner{
     display: flex;   
     background-image: url(/images/banner/banner1.png);
